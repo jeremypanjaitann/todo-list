@@ -1,5 +1,4 @@
 package todoapp;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +10,6 @@ import todoapp.services.TodoListService;
 import todoapp.services.TodoListServiceImpl;
 import todoapp.views.TodoListTerminalViewImpl;
 import todoapp.views.TodoListView;
-
 @ComponentScan(basePackages = "todoapp")
 public class Main {
     public static void main(String[] args) {
